@@ -1,5 +1,4 @@
 # Tracing error stack in practice
----
 
 Go 1.13 supports a [error wrapping feature](https://go.dev/blog/go1.13-errors). This project aims to use a tool ([romanyx/stack](https://github.com/romanyx/stack)) that helping us trace the error stack. This tools is compatible with the functions in builtin package `errors`.
 
